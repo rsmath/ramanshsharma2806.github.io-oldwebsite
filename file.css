@@ -1,0 +1,116 @@
+body {
+    background-color: ghostwhite ;
+}
+p {
+    color: black;
+    font-weight: bold;
+    background-color: 
+
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: bold;
+    color: #3BAF18  ;
+}
+img {
+    margin-left: 235px; 
+    margin-top: 0.5px; 
+    cursor: pointer; 
+}
+
+h3 {
+     font-style: italic;
+     font-size: 30px;
+    margin-left: 85px;
+}
+p {
+    font-style: justify;
+    margin: 0px 100px 0px 190px;
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+.logo {
+    float: right;
+
+}
+h2 {
+    text-align: left;
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 30px;
+}
+ol {
+    margin-left: 500px;
+    font-size: 18px;
+}
+.final {
+    margin-left: 60px;
+    font-size: 20px;
+}
+.say {
+    color: darkgreen;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.left {
+    margin-left: 60px;
+    text-align: left;
+    font-size: 20px;
+}
+.say {
+    margin-left: 560px;
+    font-size: 50px;
+    line-height: 72px;
+    cursor: pointer;
+}
+p {
+    word-spacing: 6.5px;
+}
+.infinity {
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+}
+.wiki:hover {
+    background-color: yellow;
+}
+nav ul {
+    list-style-type: none;
+    margin: 55px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ nav ul li a {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;  
+}
+a:not(.now):hover {
+    background-color: #111;
+}
+.now {
+background-color: rgb(128,128,128);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
