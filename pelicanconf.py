@@ -19,14 +19,14 @@ AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
 RSS_FEED_SUMMARY_ONLY = False
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
+LINKS = (('Bronx Science', 'https://bxscience.edu'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/ramanshsharma1'),
+          ('GitHub', 'https://github.com/ramanshsharma2806'),
+          ('Linkedin', 'https://www.linkedin.com/in/ramanshsharma/'),)
 
 DEFAULT_PAGINATION = 10
 
