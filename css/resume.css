@@ -182,8 +182,21 @@ a {
   color: #9c1c42;
 }
 
+a.project-link {
+  text-decoration: none;
+  color: #868e96;
+  text-transform: lowercase;
+  position: absolute;
+  left: 27.5%;
+}
+
 a:hover, a:focus, a:active {
   color: #9c1c42;
+}
+
+ul.certifications > li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .fa-certificate {
