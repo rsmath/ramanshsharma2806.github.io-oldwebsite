@@ -185,7 +185,7 @@ a {
 a.project-link {
   text-decoration: none;
   color: #868e96;
-  text-transform: lowercase;
+  text-transform: none;
   position: absolute;
   left: 27.5%;
 }
