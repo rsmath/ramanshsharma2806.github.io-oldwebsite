@@ -139,8 +139,13 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link .extlink {
     display: block;
+  }
+  iframe.blog-style {
+    border: 2px solid grey;
+    width: 100%;
+    height: 90vh;
   }
 }
 
@@ -155,6 +160,14 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (min-width: 768px) {
+  iframe.blog-style {
+    border: 2px solid grey;
+    width: 100%;
+    height: 90vh;
+  }
+  a.extlink {
+    display: none;
+  }
   section.resume-section {
     min-height: 100vh;
   }
@@ -201,4 +214,22 @@ ul.certifications > li {
 
 .fa-certificate {
   color: #ffd700;
+}
+
+@media (max-width: 767px) {
+  iframe.blog-style {
+    display: none;
+  }
+
+  section.blog {
+    display: none;
+  }
+
+  a[href="#blog"] {
+    display: none;
+  }
+
+  a.extlink {
+    display: block;
+  }
 }
